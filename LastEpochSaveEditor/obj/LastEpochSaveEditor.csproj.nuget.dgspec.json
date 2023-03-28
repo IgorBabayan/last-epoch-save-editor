@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\igorb\\OneDrive\\Документы\\Projects\\last-epoch-save-editor\\LastEpochSaveEditor\\LastEpochSaveEditor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\igorb\\OneDrive\\Документы\\Projects\\last-epoch-save-editor\\LastEpochSaveEditor\\LastEpochSaveEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igorb\\OneDrive\\Документы\\Projects\\last-epoch-save-editor\\LastEpochSaveEditor\\LastEpochSaveEditor.csproj",
+        "projectName": "LastEpochSaveEditor",
+        "projectPath": "C:\\Users\\igorb\\OneDrive\\Документы\\Projects\\last-epoch-save-editor\\LastEpochSaveEditor\\LastEpochSaveEditor.csproj",
+        "packagesPath": "C:\\Users\\igorb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igorb\\OneDrive\\Документы\\Projects\\last-epoch-save-editor\\LastEpochSaveEditor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
