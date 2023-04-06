@@ -10,13 +10,12 @@ function createWindow() {
     title: "Last Epoch save editor",
     width: isDev ? 1000 : 800,
     height: 600,
-    icon: `${__dirname}/dist/editor-ui/asserts/images/icon.png`,
+    icon: `${__dirname}/dist/editor-ui/assets/icon.png`,
     webPreferences: {
       nodeIntegration: true
     }
   });
-  debugger;
-  win.webContents.openDevTools();
+
   if (isDev)
     win.webContents.openDevTools();
 
