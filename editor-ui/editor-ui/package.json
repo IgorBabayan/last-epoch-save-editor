@@ -1,6 +1,6 @@
 {
   "name": "editor-ui",
-  "version": "0.0.0",
+  "version": "0.0.0.0",
   "license": "MIT License",
   "main": "main.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "electron": "electron .",
-    "electron-build": "ng build -&& electron ."
+    "electron-build": "ng build && electron ."
   },
   "private": true,
   "dependencies": {
