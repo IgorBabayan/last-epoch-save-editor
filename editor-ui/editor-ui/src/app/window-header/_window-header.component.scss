@@ -1,0 +1,28 @@
+.titlebar {
+  -webkit-user-select: none;
+}
+
+.draggable {
+  -webkit-app-region: drag;
+}
+
+.button.close {
+  background: #f03823;
+}
+.button.minimize {
+  background: #fca101;
+  margin: 0 3px;
+}
+.button.maximize {
+  background: #66e017;
+}
+
+.button.close:hover {
+  background: #cc2411;
+}
+.button.minimize:hover {
+  background: #d48802;
+}
+.button.maximize:hover {
+  background: #4ebd06;
+}
