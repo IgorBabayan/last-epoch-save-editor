@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "electron-build",
+			"path": "editor-ui/editor-ui",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: electron-build - editor-ui/editor-ui",
+			"detail": "ng build && electron ."
+		}
+	]
+}
