@@ -5,9 +5,9 @@ import { AppComponent } from "./app.component";
 import { WindowHeaderComponent } from './window-header/window-header.component';
 
 @NgModule({
-  declarations: [AppComponent, WindowHeaderComponent],
-  imports: [BrowserModule, AppRoutingModule],
-  providers: [],
-  bootstrap: [AppComponent],
+	declarations: [AppComponent, WindowHeaderComponent],
+	imports: [BrowserModule, AppRoutingModule],
+	providers: [],
+	bootstrap: [AppComponent],
 })
 export class AppModule { }

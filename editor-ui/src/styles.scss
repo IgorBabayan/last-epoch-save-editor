@@ -1,6 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import "colors";
+@import "./app/app.component";
+@import "./app/window-header/window-header.component";
 
+html,
 body {
-	font-family: "Font Awesome 6 Free";
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", "Font Awesome 6 Free", sans-serif;
+	font-size: 16pt;
+	background-color: $background-color;
 }

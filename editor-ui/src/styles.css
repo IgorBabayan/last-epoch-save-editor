@@ -1,4 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+.main header {
+  color: #bdbdbd;
+}
+.main header.control-panel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  background-color: #15141b;
+  border-bottom: 1px solid #343b48;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+.main header .title-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.main header .title-bar .title {
+  margin-left: 10px;
+}
+.main header .window-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.main header .window-buttons .controls .minimize, .main header .window-buttons .controls .maximize {
+  margin-right: 10px;
+}
+
+html,
 body {
-  font-family: "Font Awesome 6 Free";
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Font Awesome 6 Free", sans-serif;
+  font-size: 16pt;
+  background-color: #15141b;
 }/*# sourceMappingURL=styles.css.map */

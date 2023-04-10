@@ -1,0 +1,44 @@
+@import "./../../colors";
+
+.main {
+	header {
+		color: $white-soft;
+
+		&.control-panel {
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			height: 40px;
+			background-color: $background-soft-color;
+			border-bottom: 1px solid $border-color;
+			-webkit-user-select: none;
+			-webkit-app-region: drag;
+		}
+
+		.title-bar {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			flex-grow: 1;
+			margin-left: 10px;
+
+			.title {
+				margin-left: 10px;
+			}
+		}
+
+		.window-buttons {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin-right: 10px;
+
+			.controls {
+				.minimize, .maximize {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}
